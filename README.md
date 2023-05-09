@@ -4,9 +4,9 @@
 <p align="center">
      <a href="#-tecnologias">Tecnologias</a> • 
      <a href="#-features">Features</a> • 
-     <a href="#-comousar">Como usar</a> •     
+     <a href="#-como-usar">Como usar</a> •     
      <a href="#-colaboradores">Colaboradores</a> •
-     <a href="#-licenca">Licença</a> •
+     <a href="#-licença">Licença</a> •
 </p>
 
 <br>
