@@ -11,7 +11,7 @@
 
 <br>
 
-Ignite Feed, é um projeto que construimos com a Rocketseat no bootcamp Ignite. O Ignite é u programa de aceleração para devs.
+Ignite Feed, é um projeto que construimos com a Rocketseat no bootcamp Ignite. O Ignite é um programa de aceleração para devs.
 
 <br>
 
