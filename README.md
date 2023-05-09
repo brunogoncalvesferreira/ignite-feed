@@ -2,11 +2,11 @@
 <br>
 
 <p align="center">
-     <a href="#Tecnologias">Tecnologias</a> • 
-     <a href="#Como usar">Como usar</a> • 
-     <a href="#Colaboradores">Colaboradores</a> •
-     <a href="#Licença">Licença</a> •
-     <a href="#Aprendizado">Aprendizado</a>
+     <a href="#tecnologias">Tecnologias</a> • 
+     <a href="#comousar">Como usar</a> • 
+     <a href="#colaboradores">Colaboradores</a> •
+     <a href="#licença">Licença</a> •
+     <a href="#aprendizado">Aprendizado</a>
 </p>
 
 <br>
@@ -53,7 +53,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-git clone
+git clone https://github.com/brunogoncalvesferreira/ignite-feed.git
 
 # Acesse a pasta do projeto
 cd ignite-feed
