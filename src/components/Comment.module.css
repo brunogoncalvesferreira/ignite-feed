@@ -1,0 +1,75 @@
+.container {
+  margin-top: 2rem;
+}
+
+.container .content {
+  display: flex;
+  gap: 1rem;
+}
+
+.container .content .comment {
+  background-color: var(--comment);
+  padding: 1rem;
+  border-radius: 9px;
+  width: 100%;
+}
+
+.container .content .comment header .profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .content .comment header .profile strong {
+  margin-top: 0;
+  font-size: 0.875rem;
+  color: var(--);
+}
+
+.container .content .comment header button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--gray4);
+  cursor: pointer;
+}
+
+.container .content .comment header button:hover {
+  color: var(--red-danger);
+}
+
+.container .content .comment p {
+  font-size: 0.875rem;
+  color: var(--gray6);
+  margin-top: 1rem;
+  letter-spacing: -0.5px;
+}
+
+.container footer {
+  margin: 1rem 0 0 5rem;
+}
+
+.container footer button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--gray4);
+  cursor: pointer;
+}
+
+.container footer button:hover,
+.container footer button:hover span {
+  color: var(--green);
+}
+
+.container footer button span {
+  color: var(--gray4);
+}
+
+.container footer button span::before {
+  content: "\2022";
+  margin-right: 4px;
+}

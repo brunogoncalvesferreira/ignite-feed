@@ -1,0 +1,37 @@
+:root {
+  --green: #00875f;
+  --green-light: #00b37e;
+  --gray1: #121214;
+  --gray2: #202024;
+  --gray3: #323238;
+  --gray4: #7c7c8a;
+  --gray5: #8d8d99;
+  --gray6: #c4c4cc;
+  --gray7: #e1e1e6;
+  --comment: #29292e;
+  --white: #fff;
+  --black: #000;
+  --red-danger: #f75a68;
+  --fontFamily: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 160%;
+}
+
+body * {
+  font-family: var(--fontFamily);
+}
+
+button,
+textarea {
+  outline: none;
+  border: none;
+}
+
+body {
+  background-color: var(--gray1);
+}

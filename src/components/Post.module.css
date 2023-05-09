@@ -1,0 +1,131 @@
+.container {
+  padding: 2.5rem;
+  background-color: var(--gray2);
+  border-radius: 8px;
+}
+
+.container + .container {
+  margin-top: 2rem;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container header .profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container header .profile .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container header .profile .info strong {
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.container header .profile .info span,
+.container header time {
+  font-size: 0.875rem;
+  color: var(--gray5);
+}
+
+.container .content {
+  margin-top: 1.5rem;
+}
+
+.container .content p {
+  color: var(--white);
+  margin: 1.5rem 0;
+}
+
+.container .content a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--green-light);
+}
+
+.container .content a:hover {
+  color: var(--green);
+}
+
+.container .hasTags {
+  margin: 2.5rem 0 2.5rem 0;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--gray3);
+}
+
+.container .hasTags a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--green-light);
+  margin-right: 0.5rem;
+}
+
+.container .hasTags a:hover {
+  color: var(--green);
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container form label {
+  font-weight: 700;
+  color: var(--gray7);
+}
+
+.container form textarea {
+  width: 100%;
+  height: 6rem;
+  background-color: var(--gray1);
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--gray6);
+  resize: none;
+}
+
+.container form textarea:focus {
+  border: 1px solid var(--green-light);
+}
+
+.container form textarea::placeholder {
+  color: var(--gray4);
+}
+
+.container form footer button {
+  width: 6.75rem;
+  height: 3.125rem;
+  background-color: var(--green-light);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  border-radius: 8px;
+}
+
+.container form footer button:hover {
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.container form footer button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.container form footer {
+  display: none;
+}
+
+.container form:focus-within footer {
+  display: block;
+}
